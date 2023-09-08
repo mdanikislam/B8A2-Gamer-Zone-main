@@ -209,6 +209,7 @@ ul {
     margin-top: 50px;
 }
 
+
 .online-games-card div img {
     width: 220px;
 }
@@ -266,6 +267,150 @@ ul {
 
 /* play instant section end */
 
+/* play instant section start  */
+.career {
+    margin-top: 80px;
+    background-color: #F948B2;
+    height: 400px;
+}
+
+.career-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 140px;
+    align-items: center;
+
+}
+
+.career-img img {
+    height: 400px;
+}
+
+.career-title {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.career-description {
+    font-size: .8rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.career-info {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    gap: 100px;
+    font-size: .8rem;
+}
+
+.career-info p {
+    margin-bottom: 5px;
+}
+
+.career-btn {
+    padding: 15px 30px;
+    border-radius: 48px;
+    background-color: white;
+    color: #F948B2;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* career section end  */
+
+/* games catagory styel start  */
+.games-catagory {
+    display: flex;
+    justify-content: center;
+    padding: 0 160px;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+.games-card {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(241, 241, 241);
+    padding: 5px 20px 5px 5px;
+}
+
+.games-card:hover {
+    border: 1px solid;
+    border-color: #F948B2;
+    color: #F948B2;
+}
+
+.games-card img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+/* games catagory style end  */
+
+
+/* footer   */
+footer {
+    background-color: #0B0223;
+    color: white;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.gamer img {
+    width: 60px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: .8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gamer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.game-conditions {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.game-conditions,
+.copyright {
+    font-size: .7rem;
+    color: #808080;
+}
 
 /* ----- ---------------------------- --- - -- - - -- - - --  */
 /* Responsive media query for mobile device */
@@ -398,6 +543,107 @@ ul {
 
     .play-instant-small-img {
         display: none;
+    }
+
+    /* play instant section end  */
+
+    /* career section style start  */
+    .career {
+        height: max-content;
+    }
+
+    .career-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+        gap: 50px;
+    }
+
+    .career-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .career-info {
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .career-title {
+        font-size: 1.3rem;
+    }
+
+    .career-info,
+    .career-description {
+        font-size: .6rem;
+    }
+
+    .career-content {
+        margin-top: 20px;
+    }
+
+    .career-btn {
+        font-size: .6rem;
+        padding: 8px 25px;
+    }
+
+    /* career section end  */
+
+    /* games catagory style start  */
+    .games-catagory {
+        padding: 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        font-size: .5rem;
+        margin-bottom: 80px;
+    }
+
+    .games-card {
+        background-color: transparent;
+    }
+
+    .games-card img {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .games-card:hover {
+        border: 1px solid;
+        border-color: #F948B2;
+        color: #F948B2;
+    }
+
+    /* game catagory end  */
+
+    footer {
+        padding: 0 40px;
+    }
+
+    .gamer {
+        display: flex;
+        gap: 8px;
+    }
+
+    .services {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: .6rem;
+    }
+
+    .gamer-icon {
+        display: flex;
+        gap: 20px;
+    }
+
+    .game-conditions,
+    .copyright {
+        display: flex;
+        gap: 10px;
+        font-size: .5rem;
     }
 
 }
